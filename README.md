@@ -11,6 +11,8 @@
 
 Battery levels of your wireless mouse, headset, keyboard and controller, right on the Windows taskbar.
 
+> **XIBERIA (西伯利亚) K03S Wireless 7.1.** To show your headset's battery percentage on the Windows taskbar over the 2.4 GHz USB receiver (`36F9:C001`), [build from this fork's XIBERIA support branch](https://github.com/lambfafa/Wireless-Device-Battery-Monitor/tree/support/xiberia-k03s-wireless-71#build).
+
 ![Wireless Battery on the taskbar](docs/screenshot.png)
 
 > **Just want it working?** Download **[WirelessBattery-Setup](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor/releases/latest)** from the latest release, run it and click through. That's it.
