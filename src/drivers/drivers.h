@@ -119,6 +119,7 @@ void PollPhoneLink(PollContext& ctx);  // phone linked with Microsoft Phone Link
 void PollGalaxyBuds(PollContext& ctx); // Samsung Galaxy Buds (Bluetooth RFCOMM, not HID)
 void PollMoondrop(PollContext& ctx);   // MOONDROP GM01 Pro headset (WalkPlay 2.4 GHz dongle)
 void PollAlienware(PollContext& ctx);  // Alienware AW920H headset on its 2.4 GHz dongle (413C:A515)
+void PollXiberia(PollContext& ctx);    // XIBERIA K03S Wireless 7.1 on its 2.4 GHz receiver (36F9:C001)
 // Fallbacks.
 void PollHeadsetControl(PollContext &ctx); // only if headsetcontrol.exe is installed
 void PollGenericHid(PollContext &ctx);

@@ -128,6 +128,7 @@ Hover for details. Click for the menu: every device (click one to hide or show i
 | **Samsung** | Galaxy Buds, Buds+, Buds Live, Buds Pro, Buds2, Buds2 Pro, Buds FE, Buds Core, Buds3 / Buds3 Pro / Buds3 FE (Bluetooth) | Status frame the earbuds push on Samsung's RFCOMM (SPP) service, read-only. The tray shows the lower earbud; the tooltip lists left, right and case. The Galaxy Buds app must be closed |
 | **Sony** | DualShock 4, DualSense, DualSense Edge (USB, Bluetooth, wireless adapter); INZONE H9 II and H5 headsets | Input report; INZONE vendor protocol |
 | **MOONDROP** | GM01 Pro headset on its 2.4 GHz dongle (`35D8:0133`); on its USB cable it shows as charging with the last level | WalkPlay vendor read command on report `4B` (read-only) |
+| **XIBERIA** | K03S Wireless 7.1 headset on its 2.4 GHz USB receiver (`36F9:C001`) | Vendor HID battery query (read-only) |
 | **JBL** | Quantum 650 Wireless (tested, 2.4 GHz dongle); Quantum 520, 650X, 850, 950, 950X Wireless (dongle or USB cable, same protocol, untested) | JBL "HIDV3" device-info query for the battery feature (usage page FF12), with charging state |
 | **JBL** | Quantum 350 Wireless (tested on Windows with the `0ECB:206B` 2.4 GHz receiver) | HIDV1 feature reports for wireless connection and battery percentage |
 | **GameSir** | Nova Lite, Nova 2, Nova 2 Lite on the 2.4 GHz receiver; Nova 2 Lite on USB | Vendor device-info query (usage page FF7A) |
